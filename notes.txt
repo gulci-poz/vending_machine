@@ -1,0 +1,12 @@
+ctrl + shift + p - linia poleceń VS Code
+ctrl + shift + b - uruchomienie/dodanie build task
+ctrl + shift + u - okienko output
+ext install - z linii poleceń VS code - wyświetlenie wtyczek do zainstalowania
+(też: ctrl + shift + x lub przycisk na pasku narzędzi)
+ctrl + f1 - uruchomienie w przeglądarce za pomocą wtyczki View in browser
+
+tasks.json (folder .vscode)
+w args określamy folder, z którego będą transpilowane wszystkie pliki ts (p i nazwa folderu),
+w tym folderze możemy stworzyć plik konfiguracji tsconfig.json dla transpilera tsc,
+tam określamy docelową wersję js, tworzenie jednego pliku js lub folderu dla plików js
+oraz czy mają być tworzone mapy js (potrzebne w przypadku jednego pliku js)
