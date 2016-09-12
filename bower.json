@@ -1,0 +1,10 @@
+{
+  "name": "vending_machine",
+  "homepage": "https://github.com/gulci-poz/vending_machine",
+  "description": "",
+  "main": "js/app.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
